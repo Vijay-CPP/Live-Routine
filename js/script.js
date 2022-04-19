@@ -229,12 +229,7 @@ setInterval(() => {
 
     current_sub.innerText = generateSubject(hrs, mins, day);
     next_sub.innerText = generateNextSubject(hrs, mins, day);
-    // left_time.innerText = generateRemainingTime(hrs, mins, secs, day)
-    // next_time.innerText = generateNextTime(hrs, mins, secs, day);
-
-    current_sub.innerText = generateSubject(17, 20, 5);
-    next_sub.innerText = generateNextSubject(17, 20, 5);
-    left_time.innerText = generateRemainingTime(17, 20, 5)
-    next_time.innerText = generateNextTime(17, 20, 5);
+    left_time.innerText = generateRemainingTime(hrs, mins, day)
+    next_time.innerText = generateNextTime(hrs, mins, day);
 
 })
